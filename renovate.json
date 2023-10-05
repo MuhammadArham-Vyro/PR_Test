@@ -2,8 +2,7 @@
   "extends": ["config:base"],
   "platform": "python",
   "python": {
-    "pipenv": true,
-    "requirementsFileNames": ["requirements.txt"]
+    "enabled": true   
   },
   "schedule": ["after 5pm on Monday"],
   "timezone": "UTC",
