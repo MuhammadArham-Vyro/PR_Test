@@ -1,11 +1,12 @@
 {
   "extends": ["config:base"],
-  "packageRules": [
-    {
-      "matchUpdateTypes": ["major", "minor", "patch"],
-      "pip": {
-        "filePatterns": ["requirements.txt"]
-      }
-    }
-  ]
+  "platform": "python",
+  "python": {
+    "pipenv": true,
+    "requirementsFileNames": ["requirements.txt"]
+  },
+  "schedule": ["after 5pm on Monday"],
+  "timezone": "UTC",
+  "autodiscover": true,
+  "enabledManagers": ["pip"]
 }
