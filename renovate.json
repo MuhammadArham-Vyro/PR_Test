@@ -6,5 +6,5 @@
   },
   "schedule": ["after 5pm on Monday"],
   "timezone": "UTC",
-  "autodiscover": true,
+  "autodiscover": true
 }
